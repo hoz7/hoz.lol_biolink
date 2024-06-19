@@ -192,6 +192,20 @@ function App() {
           <audio id='audio' src={stop} />
         </div>
         <div className='div2'></div>
+        <button
+          className='button2'
+          onClick={() => handleCopyAddress1('https://paypal.me/hozcuh', 'PayPal link')}
+          data-label={cssLabel1}
+        >
+          PayPal
+        </button>
+        <button
+          className='button1'
+          onClick={() => handleCopyAddress('https://cultofintellect.com/dx9ware/purchase', 'DX9WARE Purchase Page')}
+          data-label={cssLabel}
+        >
+          DX9WARE
+        </button>
       </div>
     </div>
   );
