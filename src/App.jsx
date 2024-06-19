@@ -98,7 +98,7 @@ function App() {
         setCssLabel('Copied');
         setTimeout(() => {
           setCopyStatus('');
-          setCssLabel('Copy BTC Address');
+          setCssLabel('Copy DX9WARE purchase site');
         }, 2000);
       })
       .catch(error => console.error('Error copying address to clipboard:', error));
@@ -111,7 +111,7 @@ function App() {
         setCssLabel1('Copied');
         setTimeout(() => {
           setCopyStatus('');
-          setCssLabel1('Copy LTC Address');
+          setCssLabel1('Copy PayPal Address');
         }, 2000);
       })
       .catch(error => console.error('Error copying address to clipboard:', error));
